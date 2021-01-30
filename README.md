@@ -1,4 +1,4 @@
-# GO-IT_HOMEWORKS
+# go_it_homework1
 
 Homeworks
 
