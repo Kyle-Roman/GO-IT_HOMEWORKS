@@ -6,8 +6,137 @@
     <title>Document</title>
 </head>
 <body>
-    This is first commit!
+   
+    <img src="photo.jpg" alt="Изображение примера" width="200" height="150">
 
-    This is second commit
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <div class="buttons">
+      <button type="button" class="button">inline</button>
+      <button type="button" class="button">block</button>
+      <button type="button" class="button">inline-block</button>
+    </div>
+    <div class="buttons">
+      <button type="button" class="button">HTML</button>
+      <button type="button" class="button">CSS</button>
+      <button type="button" class="button">JavaScript</button>
+    </div>
+
+    <div class='box'>
+        <span class="link-inline">
+        <a href="#" class='link-inline'>Текст</a>
+        </span>
+        без переноса на новую строку
+    </div>
+    <div class='box'>
+        <p class="link-block">
+        <a href="#" class='link-block'>Текст</a>
+        </p>
+        с переносом на новую строку
+    </div>
+
+<div class="card">
+    <h4 class="card-title">Порядок загрузки файлов браузером</h4>
+    <ol class="card-items">
+        <li class="card-item">Файл html</li>
+        <li class="card-item">Ссылки на файлы внутри тега head</li>
+        <li class="card-item">Ссылки на файлы внутри body</li>        
+    </ol>
+</div>
+
+<ul class="cards">
+  <li class="card">
+    <h4 class="card-title">Карточка о теме 1</h4>
+    <div class="wrp-img">
+      <img class="card-image" src="photo.jpg" alt="описание фото">
+    </div>
+    <p class="card-description">Подробное описание темы 1</p>
+  </li>
+  <li class="card">
+    <h4 class="card-title">Карточка о теме 2</h4>
+    <div class="wrp-img">
+      <img class="card-image" src="photo2.jpg" alt="описание фото">
+    </div>
+    <p class="card-description">Подробное описание темы 2</p>
+  </li>
+  <li class="card">
+    <h4 class="card-title">Карточка о теме 3</h4>
+    <div class="wrp-img">
+      <img class="card-image" src="photo3.jpg" alt="описание фото">
+    </div>
+    <p class="card-description">Подробное описание темы 3</p>
+  </li>
+</ul>
+
+<a href="https://goit.com.ua" target="_blank" rel="noopener noreferrer nofollow">
+    GoIT
+</a>
+
+
+<a href="resume.pdf" download="resume.pdf">Резюме</a>
+
+<!-- Ссылка на телефонный номер -->
+<a href="tel:+14251234563">+1 (425) 123-45-63</a>
+<!-- Ссылка на адрес электронной почты  -->
+<a href="mailto:example@gmail.com">example@gmail.com</a>
+
+<header id="top">
+    <!-- контент из logo, nav, поиска  -->
+</header>
+<main>
+    <aside>
+        <ul>
+            <li><a href="#top">Вверх страницы</a></li>
+            <li><a href="#page-theme">К основной теме</a></li>
+            <li><a href="#bottom">Вниз страницы</a></li>
+        </ul>
+    </aside>
+    <article id="page-theme">
+        <!-- основная тема страницы  -->
+    </article>
+</main>
+<footer id="bottom">
+    <!-- контент из logo, nav, контактов, копирайта  -->
+</footer>
+
+<figure>
+  <img src="photo.jpg" alt="описание фото" />
+  <figcaption>
+    Внутри ссылки допускается размещение только одного элемента img, любого количества текста или элементов. Запрещается
+    размещать интерактивные элементы.
+  </figcaption>
+</figure>
+
+<a href="./about">
+<img src="photo.jpg" alt="запись в ноутбуке" />
+</a>
+<a href="./about">
+<img src="photo2.jpg" alt="запись на бумаге" />
+</a>
+
+<!--  TODO 
+* создать проект со структурой:
+images/logo.svg
+css/style.css
+about.html
+index.html
+ -->
+
+<!-- файл about.html -->
+<a href="../index.html">
+    <img src="../images/logo.png" alt="logo">
+</a>
+
+
+<!-- файл about.html -->
+<a href="../index.html">
+    <img src="../images/logo.png" alt="logo">
+</a>
+
+
 </body>
 </html>
