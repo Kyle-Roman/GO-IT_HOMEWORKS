@@ -1,4 +1,4 @@
-# go_it_homework1
+# go_it_chat_bot_tasks
 
 Homeworks
 
