@@ -1,0 +1,32 @@
+p {
+  color: red;
+  font-size: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  color: green;
+}
+
+.rule {
+  list-style: upper-roman;
+  color: navy;
+}
+
+.common-rule {
+  list-style: upper-roman;
+  font-size: 20px;
+}
+
+.first-rule {
+  color: red;
+}
+
+.last-rule {
+  color: green;
+}
