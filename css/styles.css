@@ -30,3 +30,82 @@ li {
 .last-rule {
   color: green;
 }
+
+/* BLOCK 3 */
+.btn {
+  border: none;
+  padding: 2.5px 11.5px;
+}
+
+.link {
+  text-decoration: none;
+  color: navy;
+}
+/* Напиши свой код под этой строкой */
+.btn.active {
+  color: red;
+}
+
+.link.active {
+  font-weight: 700;
+}
+
+.link {
+  text-decoration: none;
+  color: navy;
+  opacity: 0.5;
+}
+/* Напиши свой код под этой строкой */
+.link:focus,
+.link:hover {
+  opacity: 1;
+}
+
+[type] {
+  color: white;
+}
+
+button[type="reset"] {
+  color: green;
+}
+
+.link {
+  text-decoration: none;
+}
+
+[href^="./"] {
+  color: red;
+}
+
+[href^="https"] {
+  color: navy;
+}
+
+.link {
+  text-decoration: none;
+}
+
+[href$="html"] {
+  color: green;
+}
+
+[href$="css"] {
+  color: orangered;
+}
+
+.link {
+  text-decoration: none;
+}
+
+[href*="about"] {
+  color: green;
+}
+
+[href*="com"] {
+  color: orangered;
+}
+
+#sending {
+  background-color: teal;
+  color: white;
+}
