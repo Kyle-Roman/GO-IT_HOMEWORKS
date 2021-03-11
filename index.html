@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/modern-normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
    
@@ -214,12 +216,55 @@ index.html
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-</body>
+  <div class="warning" id="inline" style="background-color: orange; color: navy;">Инлайн стили нежелательно использовать из-за более высокого приоритета чем у
+    id, а также из-за сложности c поддержкой и переиспользованем кода.</div>
+
+    <!-- task 19 -->
+<ul class="menu">
+  <li class="menu-item">
+    <a href="#" class="menu-link">Меню 1</a>
+  </li>
+  <li class="menu-item">
+    <a href="#" class="menu-link">Меню 2 ▼</a>
+    <ul class="sub-menu">
+      <li class="menu-item">
+        <a href="#" class="menu-link">Sub Меню 1</a>
+      </li>
+      <li class="menu-item">
+        <a href="#" class="menu-link">Sub Меню 2 ▼</a>
+        <ul class="sub-menu">
+          <li class="menu-item">
+            <a href="#" class="menu-link">Sub Меню 1</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link">Sub Меню 2</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link">Sub Меню 3</a>
+          </li>
+        </ul>
+      </li>
+      <li class="menu-item">
+        <a href="#" class="menu-link">Sub Меню 3</a>
+      </li>
+      <li class="menu-item">
+        <a href="#" class="menu-link">Sub Меню 4</a>
+      </li>
+    </ul>
+  </li>
+  <li class="menu-item">
+    <a href="#" class="menu-link">Меню 3</a>
+  </li>
+</ul>
+
+
+  </body>
 
 </html>
 
